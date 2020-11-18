@@ -1,0 +1,10 @@
+[
+  {
+    "CamelCase": "I will be converted",
+    "snake_case": "I am already in snake case",
+    "values": "areNotConverted",
+    "nestedKeys": {
+      "willBe": "converted as well"
+    }
+  }
+]
