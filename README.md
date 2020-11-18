@@ -52,3 +52,7 @@ will be converted to:
 The output is JSON stringified, can be used together with [jq](https://stedolan.github.io/jq/) to beautify the output
 
 `node dist/index.js | jq .`
+
+The output can be copied to the clipboard as follows
+
+`node dist/index.js | jq . | xclip -selection clipboard`
